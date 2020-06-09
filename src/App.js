@@ -26,7 +26,7 @@ class App extends React.Component {
       ],
 
       home: {
-        title: "The secret of getting ahead is getting started. ",
+        title: "THE SECRET OF GETTING AHEAD IS GETTING STARTED !! ",
       },
 
       about: {
@@ -51,11 +51,7 @@ class App extends React.Component {
       <div>
         <Router>
           <Container className="p-0" fluid={true}>
-            <Navbar
-              className=" border-bottom navbar-dark bg-dark"
-              expand="lg"
-              bg="dark"
-            >
+            <Navbar className="  navbar-dark bg-dark" expand="lg" bg="dark">
               <Navbar.Brand>A V I - J A I N</Navbar.Brand>
 
               <Navbar.Toggle aria-controls="navbar-toggle" />
