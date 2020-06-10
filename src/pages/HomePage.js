@@ -2,7 +2,7 @@ import React from "react";
 import HomeContent from "../components/HomeContent";
 
 function HomePage(props) {
-  return <HomeContent title={props.title} />;
+  return <HomeContent />;
 }
 
 export default HomePage;
