@@ -9,7 +9,10 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col className="p-0" md={3} sm={12}>
-            <a href="./home"> A V I - J A I N</a>
+            <a href="./" style={{ textDecoration: "none", color: "white" }}>
+              {" "}
+              A V I - J A I N
+            </a>
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={3}>
             This site was made by Avi.

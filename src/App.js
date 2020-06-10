@@ -18,7 +18,7 @@ class App extends React.Component {
     this.state = {
       title: "Avi Jain",
       headerLinks: [
-        { title: "Home", path: "/home" },
+        { title: "Home", path: "/" },
         { title: "About", path: "/about" },
         { title: "Internships", path: "/internships" },
         { title: "Projects", path: "/projects" },
@@ -53,12 +53,20 @@ class App extends React.Component {
           <Router>
             <Container className="p-0" fluid={true}>
               <Navbar className="  navbar-dark bg-dark" expand="lg" bg="dark">
-                <Navbar.Brand>A V I - J A I N</Navbar.Brand>
+                <Navbar.Brand>
+                  <Link
+                    className="nav-link"
+                    to="/home"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    A V I - J A I N
+                  </Link>
+                </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="navbar-toggle" />
                 <Navbar.Collapse id="navbar-toggle">
                   <Nav className="mr-auto">
-                    <Link className="nav-link" to="/home">
+                    <Link className="nav-link" to="/">
                       HOME
                     </Link>
                     <Link className="nav-link" to="/about">
@@ -114,7 +122,7 @@ class App extends React.Component {
               </Navbar>
 
               <Route
-                path="/home"
+                path="/"
                 exact
                 render={() => (
                   <HomePage
