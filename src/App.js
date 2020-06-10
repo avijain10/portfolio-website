@@ -61,12 +61,12 @@ class App extends React.Component {
                     HOME
                   </Link>
                   <Link className="nav-link" to="/about">
-                    ABOUT
+                    ABOUT ME
                   </Link>
                 </Nav>
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/internships">
-                    INTERNSHIPS
+                    TIMELINE
                   </Link>
                   <Link className="nav-link" to="/projects">
                     PROJECTS
