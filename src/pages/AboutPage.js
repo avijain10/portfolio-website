@@ -65,7 +65,9 @@ function AboutPage(props) {
           <h4>
             I've experience in building websites using
             <br />
-            HTML,CSS,Javascript,Bootstrap,React
+            HTML,CSS,Javascript,
+            <br />
+            Bootstrap,React.
           </h4>
         </Figure.Caption>
       </Figure>
