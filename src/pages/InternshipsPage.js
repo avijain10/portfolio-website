@@ -1,7 +1,8 @@
 import React from "react";
+import Series from "../components/Series";
 
 function InternshipsPage(props) {
-  return <p>Internships page works!</p>;
+  return <Series />;
 }
 
 export default InternshipsPage;

@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 import Footer from "./components/Footer";
+import "./App.css";
 
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";

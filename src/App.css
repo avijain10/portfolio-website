@@ -1,0 +1,40 @@
+.g-block {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.g-block-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.g-block-info {
+  margin-top: 0px;
+  min-height: 100px;
+}
+
+.g-block-title {
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.g-block-sub-title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.g-block-sub-matter {
+  font-size: 18px;
+  margin: 0px;
+}
+
+div.mt-5 footer-dark bg-dark text-light {
+  position: absolute;
+  bottom: 0px;
+  right: 2.5%;
+}
