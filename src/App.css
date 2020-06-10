@@ -32,9 +32,3 @@
   font-size: 18px;
   margin: 0px;
 }
-
-div.mt-5 footer-dark bg-dark text-light {
-  position: absolute;
-  bottom: 0px;
-  right: 2.5%;
-}
