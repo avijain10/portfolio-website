@@ -61,7 +61,7 @@ class App extends React.Component {
                 <Navbar.Brand>
                   <Link
                     className="nav-link"
-                    to="/home"
+                    to="/"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     A V I - J A I N
