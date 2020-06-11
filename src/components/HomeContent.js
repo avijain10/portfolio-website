@@ -22,7 +22,11 @@ function HomeContent(props) {
         <img className="d-block w-100" src={img} alt="Third slide" />
 
         <Carousel.Caption>
-          <h1 className="display-2">I often Build.</h1>
+          <h1 className="display-2">
+            I often Build.
+            <br />
+            And i love to Sing.
+          </h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

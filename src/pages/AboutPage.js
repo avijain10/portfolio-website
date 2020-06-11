@@ -4,6 +4,7 @@ import Figure from "react-bootstrap/Figure";
 import img1 from "C:/Users/Avi/my_portfolio/src/components/card1.jpg";
 import img2 from "C:/Users/Avi/my_portfolio/src/components/card2.jpg";
 import img3 from "C:/Users/Avi/my_portfolio/src/components/card3.jpg";
+import img4 from "C:/Users/Avi/my_portfolio/src/components/card4.jpg";
 
 function AboutPage(props) {
   return (
@@ -17,7 +18,7 @@ function AboutPage(props) {
     >
       <h1 className="display-3">WHO AM I?</h1>
       <br /> <br />
-      <h3 className="display-5">
+      <h3 className="display-5 ">
         I am a computer grad student still persuing my Bachelors in Computer
         Applications. I love exploring new fields and always want to do
         something new and unique.
@@ -53,6 +54,18 @@ function AboutPage(props) {
             <br />
             And now i've become so good that i <br />
             can write about anything in few minutes.
+          </h4>
+        </Figure.Caption>
+      </Figure>
+      <br />
+      <Figure>
+        <Figure.Image width={171} height={180} alt="171x180" src={img4} />
+        <Figure.Caption>
+          <h2>System Security</h2>
+          <h4>
+            I have always been interested in Networking.
+            <br />
+            And i'm trying to learn new things <br /> about it everyday.
           </h4>
         </Figure.Caption>
       </Figure>

@@ -52,7 +52,12 @@ class App extends React.Component {
         <Scroll>
           <Router>
             <Container className="p-0" fluid={true}>
-              <Navbar className="  navbar-dark bg-dark" expand="lg" bg="dark">
+              <Navbar
+                className="  navbar-dark bg-dark"
+                expand="lg"
+                bg="dark"
+                style={{ top: "0%", position: "sticky" }}
+              >
                 <Navbar.Brand>
                   <Link
                     className="nav-link"
