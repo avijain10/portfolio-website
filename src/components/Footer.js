@@ -18,7 +18,7 @@ function Footer() {
             </a>
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={3}>
-            This site was made by Avi.
+            Designed & Developed by Avi Jain.
           </Col>
         </Row>
       </Container>

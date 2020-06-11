@@ -80,7 +80,7 @@ function AboutPage(props) {
             <br />
             HTML,CSS,Javascript,
             <br />
-            Bootstrap,React.
+            Bootstrap,React,PHP.
           </h4>
         </Figure.Caption>
       </Figure>
