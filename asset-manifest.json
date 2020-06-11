@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.ba00ef65.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.246c2433.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.246c2433.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.fc228a7f.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.fc228a7f.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.3f55a665.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.3f55a665.js.map",
     "static/css/2.829c9cb5.chunk.css": "/portfolio-website/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.93341508.chunk.js": "/portfolio-website/static/js/2.93341508.chunk.js",
-    "static/js/2.93341508.chunk.js.map": "/portfolio-website/static/js/2.93341508.chunk.js.map",
+    "static/js/2.6c4f4474.chunk.js": "/portfolio-website/static/js/2.6c4f4474.chunk.js",
+    "static/js/2.6c4f4474.chunk.js.map": "/portfolio-website/static/js/2.6c4f4474.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.fbb4d4713b92db148e669378280d8eb9.js": "/portfolio-website/precache-manifest.fbb4d4713b92db148e669378280d8eb9.js",
+    "precache-manifest.d980a90cd084b430936dcd3ab03f5b6e.js": "/portfolio-website/precache-manifest.d980a90cd084b430936dcd3ab03f5b6e.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/portfolio-website/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.ba00ef65.chunk.css.map": "/portfolio-website/static/css/main.ba00ef65.chunk.css.map",
-    "static/js/2.93341508.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.93341508.chunk.js.LICENSE.txt",
+    "static/js/2.6c4f4474.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.6c4f4474.chunk.js.LICENSE.txt",
     "static/media/homepage1.jpg": "/portfolio-website/static/media/homepage1.58512241.jpg",
     "static/media/kohi.jpg": "/portfolio-website/static/media/kohi.4d684da5.jpg",
     "static/media/mars.jpg": "/portfolio-website/static/media/mars.6af72b5b.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.3f55a665.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.93341508.chunk.js",
+    "static/js/2.6c4f4474.chunk.js",
     "static/css/main.ba00ef65.chunk.css",
-    "static/js/main.246c2433.chunk.js"
+    "static/js/main.fc228a7f.chunk.js"
   ]
 }
