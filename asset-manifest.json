@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.ba00ef65.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.fc228a7f.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.fc228a7f.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.3f55a665.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.3f55a665.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/portfolio-website/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.6c4f4474.chunk.js": "/portfolio-website/static/js/2.6c4f4474.chunk.js",
-    "static/js/2.6c4f4474.chunk.js.map": "/portfolio-website/static/js/2.6c4f4474.chunk.js.map",
-    "index.html": "/portfolio-website/index.html",
-    "precache-manifest.d980a90cd084b430936dcd3ab03f5b6e.js": "/portfolio-website/precache-manifest.d980a90cd084b430936dcd3ab03f5b6e.js",
-    "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/portfolio-website/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.ba00ef65.chunk.css.map": "/portfolio-website/static/css/main.ba00ef65.chunk.css.map",
-    "static/js/2.6c4f4474.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.6c4f4474.chunk.js.LICENSE.txt",
-    "static/media/homepage1.jpg": "/portfolio-website/static/media/homepage1.58512241.jpg",
-    "static/media/kohi.jpg": "/portfolio-website/static/media/kohi.4d684da5.jpg",
-    "static/media/mars.jpg": "/portfolio-website/static/media/mars.6af72b5b.jpg",
-    "static/media/symbi.jpg": "/portfolio-website/static/media/symbi.c1b8bb9b.jpg"
+    "main.css": "/avijain10/avijain10.github.io/static/css/main.ba00ef65.chunk.css",
+    "main.js": "/avijain10/avijain10.github.io/static/js/main.3ec01a9c.chunk.js",
+    "main.js.map": "/avijain10/avijain10.github.io/static/js/main.3ec01a9c.chunk.js.map",
+    "runtime-main.js": "/avijain10/avijain10.github.io/static/js/runtime-main.100578e0.js",
+    "runtime-main.js.map": "/avijain10/avijain10.github.io/static/js/runtime-main.100578e0.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/avijain10/avijain10.github.io/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.93341508.chunk.js": "/avijain10/avijain10.github.io/static/js/2.93341508.chunk.js",
+    "static/js/2.93341508.chunk.js.map": "/avijain10/avijain10.github.io/static/js/2.93341508.chunk.js.map",
+    "index.html": "/avijain10/avijain10.github.io/index.html",
+    "precache-manifest.b630a4fb5af060d673bf5fd6f3999607.js": "/avijain10/avijain10.github.io/precache-manifest.b630a4fb5af060d673bf5fd6f3999607.js",
+    "service-worker.js": "/avijain10/avijain10.github.io/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/avijain10/avijain10.github.io/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.ba00ef65.chunk.css.map": "/avijain10/avijain10.github.io/static/css/main.ba00ef65.chunk.css.map",
+    "static/js/2.93341508.chunk.js.LICENSE.txt": "/avijain10/avijain10.github.io/static/js/2.93341508.chunk.js.LICENSE.txt",
+    "static/media/homepage1.jpg": "/avijain10/avijain10.github.io/static/media/homepage1.58512241.jpg",
+    "static/media/kohi.jpg": "/avijain10/avijain10.github.io/static/media/kohi.4d684da5.jpg",
+    "static/media/mars.jpg": "/avijain10/avijain10.github.io/static/media/mars.6af72b5b.jpg",
+    "static/media/symbi.jpg": "/avijain10/avijain10.github.io/static/media/symbi.c1b8bb9b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f55a665.js",
+    "static/js/runtime-main.100578e0.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.6c4f4474.chunk.js",
+    "static/js/2.93341508.chunk.js",
     "static/css/main.ba00ef65.chunk.css",
-    "static/js/main.fc228a7f.chunk.js"
+    "static/js/main.3ec01a9c.chunk.js"
   ]
 }
