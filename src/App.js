@@ -71,7 +71,7 @@ class App extends React.Component {
                 <Navbar.Toggle aria-controls="navbar-toggle" />
                 <Navbar.Collapse id="navbar-toggle">
                   <Nav className="mr-auto">
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/home">
                       HOME
                     </Link>
                     <Link className="nav-link" to="/about">
@@ -113,10 +113,9 @@ class App extends React.Component {
                         Facebook
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        className="hover-text"
                         data-toggle="tooltip"
-                        data-placement="bottom"
-                        title="mailto: avijain1001@gmail.com"
+                        data-placement="right"
+                        title="mailto : avijain1001@gmail.com"
                         href="#"
                       >
                         Email
@@ -125,9 +124,27 @@ class App extends React.Component {
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
-
               <Route
                 path="/"
+                exact
+                render={() => (
+                  <div
+                    style={{
+                      marginTop: "250px",
+                      marginBottom: "325px",
+                      textAlign: "center",
+                      background: "white",
+                      color: "black",
+                    }}
+                  >
+                    <h2 style={{ color: "black" }} className=" display-1">
+                      What are you looking at??? <br /> Click on Home to Proceed
+                    </h2>
+                  </div>
+                )}
+              />
+              <Route
+                path="/home"
                 exact
                 render={() => (
                   <HomePage
