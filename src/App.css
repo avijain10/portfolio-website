@@ -14,7 +14,8 @@
 
 .g-block-info {
   margin-top: 0px;
-  min-height: 100px;
+  /*min-height: 100px;*/
+  margin-bottom: 100px;
 }
 
 .g-block-title {
