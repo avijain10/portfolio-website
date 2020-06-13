@@ -11,6 +11,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import InternshipsPage from "./pages/InternshipsPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import LandingPage from "./LandingPage";
 
 class App extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class App extends React.Component {
     this.state = {
       title: "Avi Jain",
       headerLinks: [
+        { title: "A V I - J A I N ", path: "/" },
         { title: "Home", path: "/home" },
         { title: "About", path: "/about" },
         { title: "Internships", path: "/internships" },
@@ -46,6 +48,7 @@ class App extends React.Component {
       },
     };
   }
+
   render() {
     return (
       <div>
@@ -58,19 +61,16 @@ class App extends React.Component {
                 bg="dark"
                 style={{ top: "0%", position: "sticky" }}
               >
-                <Navbar.Brand>
-                  <Link
-                    className="nav-link"
-                    to="/home"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    A V I - J A I N
-                  </Link>
-                </Navbar.Brand>
-
                 <Navbar.Toggle aria-controls="navbar-toggle" />
                 <Navbar.Collapse id="navbar-toggle">
                   <Nav className="mr-auto">
+                    <Link
+                      className="nav-link"
+                      style={{ textDecoration: "none", color: "white" }}
+                      to="/"
+                    >
+                      A V I - J A I N
+                    </Link>
                     <Link className="nav-link" to="/home">
                       HOME
                     </Link>
@@ -143,17 +143,9 @@ class App extends React.Component {
                   </div>
                 )}
                   /> */}
-              <Route
-                path="/home"
-                exact
-                render={() => (
-                  <HomePage
-                    title={this.state.home.title}
-                    subTitle={this.state.home.subTitle}
-                    text={this.state.home.text}
-                  />
-                )}
-              />
+              <Route exact path="/" render={() => <LandingPage />} />
+
+              <Route path="/home" exact render={() => <HomePage />} />
 
               <Route
                 path="/about"
