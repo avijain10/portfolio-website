@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import Container from "react-bootstrap/Container";
+//import Navbar from "react-bootstrap/Navbar";
+//import Nav from "react-bootstrap/Nav";
+//import NavDropdown from "react-bootstrap/NavDropdown";
 import Scroll from "./components/Scroll";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -12,53 +12,45 @@ import AboutPage from "./pages/AboutPage";
 import InternshipsPage from "./pages/InternshipsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: "Avi Jain",
-      headerLinks: [
-        { title: "Home", path: "/home" },
-        { title: "About", path: "/about" },
-        { title: "Internships", path: "/internships" },
-        { title: "Projects", path: "/projects" },
-        { title: "Contact", path: "/contact" },
-      ],
+import NavBar from "./components/NavBar";
 
-      home: {
-        title: "THE SECRET OF GETTING AHEAD IS GETTING STARTED !! ",
-      },
-
-      about: {
-        title: "About ",
-      },
-
-      internships: {
-        title: "Internships ",
-      },
-
-      projects: {
-        title: "Projects ",
-      },
-
-      contact: {
-        title: "Contact ",
-      },
-    };
-  }
-
-  render() {
-    return (
-      <div>
+// super(props);
+//   this.state = {
+//   title: "Avi Jain",
+// headerLinks: [
+// { title: "Home", path: "/home" },
+//    { title: "About", path: "/about" },
+//  { title: "Internships", path: "/internships" },
+//{ title: "Projects", path: "/projects" },
+//      { title: "Contact", path: "/contact" },
+//  ],
+//home: {
+//       title: "THE SECRET OF GETTING AHEAD IS GETTING STARTED !! ",
+//   },
+//      about: {
+//      title: "About ",
+//  },
+//internships: {
+//title: "Internships ",
+//     },
+//      projects: {
+//      title: "Projects ",
+//  },
+//      contact: {
+//      title: "Contact ",
+//  },
+// };
+// }
+/* <div>
         <Scroll>
           <Router>
-            <Container className="p-0" fluid={true}>
+           <Container className="p-0" fluid={true}>
               <Navbar
                 className="  navbar-dark bg-dark"
                 expand="lg"
                 bg="dark"
                 style={{ top: "0%", position: "sticky" }}
-              >
+    >
                 <Navbar.Brand>
                   <Link
                     className="nav-link"
@@ -124,7 +116,7 @@ class App extends React.Component {
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
-              {/* <Route
+               <Route
                 path="/"
                 exact
                 render={() => (
@@ -142,7 +134,7 @@ class App extends React.Component {
                     </h2>
                   </div>
                 )}
-                  /> */}
+                  /> 
               <Route path="/" exact render={() => <HomePage />} />
 
               <Route path="/home" exact render={() => <HomePage />} />
@@ -172,9 +164,46 @@ class App extends React.Component {
           </Router>
         </Scroll>
         <Footer />
+                </div> */
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Router>
+          <NavBar />
+          <Switch>
+            <Scroll>
+              <Route path="/" exact component={Home} />
+              <Route path="/home" component={HomePage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/internships" component={InternshipsPage} />
+              <Route path="/projects" component={ProjectsPage} />
+            </Scroll>
+          </Switch>
+        </Router>
+        <Footer />
       </div>
     );
   }
 }
+
+const Home = () => {
+  return (
+    <div
+      style={{
+        marginTop: "250px",
+        marginBottom: "325px",
+        textAlign: "center",
+        background: "white",
+        color: "black",
+      }}
+    >
+      <h2 style={{ color: "black" }} className=" display-1">
+        What are you looking at??? <br /> Click on Home to Proceed
+      </h2>
+    </div>
+  );
+};
 
 export default App;
